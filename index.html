@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ECG Image Comparison</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+        }
+    </style>
+</head>
+<body>
+    <h1>ECG Image Comparison</h1>
+    <input type="file" id="uploadInput" accept="image/*">
+    <button onclick="compareImages()">Compare</button>
+    <p id="result"></p>
+    <img id="referenceImage" src="path_to_your_reference_ecg_image.png" alt="Reference ECG" style="max-width: 100%; margin-top: 20px;">
+    <script src="ecgComparison.js"></script>
+</body>
+</html>
